@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+person:
+  id: 2
+  name: 张三
+  hobbies:
+    - play
+    - read
+    - sleep
+  family: [father,mother]
+  map: {k1:v1,k2:v2}
+  pet:
+      type: cat
+      name: zs
+student:
+    name: zs
+spring:
+  profiles:
+    active: test
